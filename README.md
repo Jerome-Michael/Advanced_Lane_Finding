@@ -85,20 +85,13 @@ A lot of credits are given to the community on `Slack` for the various ideas. Th
 
 The PerspectiveTransform() function uses hard-coded pixel locations for both the original and new images and calculates the M and Minv matrices for perspective transform. Then, the M matrix is used by cv2.warpPerspective to convert the original image to its bird's view, while Minv is used to do transform in the opposite direction. Here's an example of my output for this step of the test image:
 
-<table style="width:100%">
-  <tr>
-    <th>
-      <p align="center">
-           <img src="./img/prespective_transform.png" width="100%" height="100%">
-      </p>
-    </th>
-    <th>
-      <p align="center">
-           <img src="./img/prespective_transform_1.png" width="100%" height="100%">
-      </p>
-    </th>
-  </tr>
-</table>
+<p align="center">
+  <img src="./img/prespective_transform.png" width="960">
+</p>
+
+<p align="center">
+  <img src="./img/prespective_transform_1.png" width="960">
+</p>
 
 ### Step 4: Fit a polynomial to the lane lines
 
@@ -129,9 +122,9 @@ All other test images can be found in [./output_images/](./output_images/)
 
 After establishing a pipeline to process still images, the final step was to expand the pipeline to process videos frame-by-frame, to simulate what it would be like to process an image stream in real time on an actual vehicle. The output video is given below,
 
-| **Project Video** |
-|-----|-----|
-|![Project Video](videos/project-output-video.gif)|
+|Project Video|
+|-------------|-------------|
+|![Final Result Gif](./videos/project-output-video.gif)|
 
 
 ## Reflection
