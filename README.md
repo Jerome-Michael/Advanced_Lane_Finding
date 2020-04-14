@@ -122,8 +122,6 @@ All other test images can be found in [./output_images/](./output_images/)
 
 After establishing a pipeline to process still images, the final step was to expand the pipeline to process videos frame-by-frame, to simulate what it would be like to process an image stream in real time on an actual vehicle. The output video is given below,
 
-|Project Video|
-|-------------|-------------|
 |![Final Result Gif](./videos/project-output-video.gif)|
 
 
