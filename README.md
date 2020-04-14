@@ -83,7 +83,7 @@ A lot of credits are given to the community on `Slack` for the various ideas. Th
 
 ### Step 3: Perspective Transform
 
-The PerspectiveTransform() function uses hard-coded pixel locations for both the original and new images and calculates the M and Minv matrices for perspective transform. Then, the M matrix is used by cv2.warpPerspective to convert the original image to its bird's view, while Minv is used to do transform in the opposite direction. Here's an example of my output for this step of the test image:
+The `PerspectiveTransform()` function uses hard-coded pixel locations for both the original and new images and calculates the M and Minv matrices for perspective transform. Then, the M matrix is used by `cv2.warpPerspective` to convert the original image to its bird's view, while Minv is used to do transform in the opposite direction. Here's an example of my output for this step of the test image:
 
 <p align="center">
   <img src="./img/prespective_transform.png" width="960">
